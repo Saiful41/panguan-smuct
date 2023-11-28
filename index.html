@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- for font awsom -->
+    <script src="https://kit.fontawesome.com/530c8bff7b.js" crossorigin="anonymous"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Penguin Fashion</title>
+</head>
+<body>
+    <div class="top-bar">
+        <p><i class="fa-solid fa-envelope"></i> sohanislam@gmail.com</p>
+        <p><i class="fa-solid fa-phone">+088-0170000000</i></p>
+    </div>
+    <div class="header">
+        <p class="logo">
+            <img src="images/icon/Group 33072.png" alt="">
+        </p>
+       <div class="search">
+        <input type="text" id="searchBar"     placeholder="search product" name="searchBar" style="width: 60%; color: #eee ;">
+        <i class="fa-solid fa-magnifying-glass glass" style="color: #eee;"></i>  
+       </div>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i><p id="count">0</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <div id="root"></div>
+            <div class="sidebar">
+                <div class="head">
+                    <p>Order Summary</p>
+                </div>
+                    <div id="cart-itm">Your Cart is empty
+
+                    </div>
+                    <div class="foot">
+                        <h3>Total</h3>
+                        <h2 id="total">$ 0.00</h2> 
+                    </div>  
+                    <div id="order-section">
+                        <button id="order-button">Order Now</button> 
+                    </div> 
+             </div>
+    </div>
+
+    <footer>
+        <small>&copy; 2023. Penguin E-commerce </small>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
